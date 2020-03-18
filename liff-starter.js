@@ -105,7 +105,7 @@ function registerButtonHandlers() {
     // openWindow call
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
-            url: 'https://sinyi.com.tw',
+            url: 'https://www.sinyi.com.tw',
             external: true
         });
     });

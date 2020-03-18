@@ -126,7 +126,7 @@ function registerButtonHandlers() {
         } else {
             liff.sendMessages([{
                 'type': 'text',
-                'text': "訊息發送測試!!"
+                'text': '訊息發送測試!!'
             }]).then(function() {
                 window.alert('Message sent');
             }).catch(function(error) {
